@@ -23,7 +23,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Kubeval
+      - name: kubeval
       uses: stefanprodan/kube-tools@v1.2.0
       with:
         kubectl: 1.16.2
